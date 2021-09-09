@@ -21,7 +21,7 @@ public class LoginSteps {
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		driver.get("https://demoqa.com/login");
+		//driver.get("https://demoqa.com/login");
 	}
 
 	@When("User enters UserName and Password")
