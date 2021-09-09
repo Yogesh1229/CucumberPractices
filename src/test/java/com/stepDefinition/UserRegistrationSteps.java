@@ -12,7 +12,7 @@ public class UserRegistrationSteps {
 	
 	@Given("User is on registration page")
 	public void user_is_on_registration_page() {
-		System.out.println("User navigates to registration page");
+//		System.out.println("User navigates to registration page");
 	}
 	
 	@When("User enter different test data")
