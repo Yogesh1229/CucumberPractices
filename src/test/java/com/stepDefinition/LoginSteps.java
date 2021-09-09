@@ -27,8 +27,8 @@ public class LoginSteps {
 	@When("User enters UserName and Password")
 	public void user_enters_user_name_and_password() {
 		driver.findElement(By.id("userName")).sendKeys("test1234");
-		driver.findElement(By.id("password")).sendKeys("#T123est?");
-		driver.findElement(By.id("login")).click();
+//		driver.findElement(By.id("password")).sendKeys("#T123est?");
+//		driver.findElement(By.id("login")).click();
 	}
 
 	@Then("Message displayed Login Successfully")

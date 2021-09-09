@@ -10,8 +10,8 @@ public class TestHooks {
 		System.out.println("Launch the browser");
 	}
 	
-	@After("@Regression")
-	public void teardown() {
-		System.out.println("Close the browser");
-	}
+//	@After("@Regression")
+//	public void teardown() {
+//		System.out.println("Close the browser");
+//	}
 }
