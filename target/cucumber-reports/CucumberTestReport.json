@@ -1,0 +1,173 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-02T06:02:29.384Z",
+        "line": 12,
+        "name": "Login fail : possible combinations",
+        "description": "",
+        "id": "login-feature;login-fail-:-possible-combinations;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on login page",
+            "match": {
+              "location": "com.stepDefinition.LoginFailedSteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters \"Yogesh\" in username field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Yogesh\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.stepDefinition.LoginFailedSteps.user_enters_in_username_field(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters \"test123\" in password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test123\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.stepDefinition.LoginFailedSteps.user_enters_in_password_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks sign in button",
+            "match": {
+              "location": "com.stepDefinition.LoginFailedSteps.user_clicks_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should get an error message",
+            "match": {
+              "location": "com.stepDefinition.LoginFailedSteps.user_should_get_an_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-02T06:02:29.490Z",
+        "line": 13,
+        "name": "Login fail : possible combinations",
+        "description": "",
+        "id": "login-feature;login-fail-:-possible-combinations;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on login page",
+            "match": {
+              "location": "com.stepDefinition.LoginFailedSteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters \"Ankit\" in username field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ankit\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.stepDefinition.LoginFailedSteps.user_enters_in_username_field(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters \"test\" in password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.stepDefinition.LoginFailedSteps.user_enters_in_password_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks sign in button",
+            "match": {
+              "location": "com.stepDefinition.LoginFailedSteps.user_clicks_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should get an error message",
+            "match": {
+              "location": "com.stepDefinition.LoginFailedSteps.user_should_get_an_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com/features/Login.feature",
+    "tags": []
+  }
+]

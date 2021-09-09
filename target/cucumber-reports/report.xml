@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="0.361">
+<testcase classname="Login Feature" name="Login fail : possible combinations" time="0.084">
+<system-out><![CDATA[Given User is on login page.................................................passed
+When User enters "Yogesh" in username field.................................passed
+And User enters "test123" in password field.................................passed
+And User clicks sign in button..............................................passed
+Then User should get an error message.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Feature" name="Login fail : possible combinations 2" time="0.006">
+<system-out><![CDATA[Given User is on login page.................................................passed
+When User enters "Ankit" in username field..................................passed
+And User enters "test" in password field....................................passed
+And User clicks sign in button..............................................passed
+Then User should get an error message.......................................passed
+]]></system-out>
+</testcase>
+</testsuite>
