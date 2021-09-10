@@ -20,4 +20,10 @@ public class TestHooks {
 		System.out.println("Close the browser");
 	}
 	
+	@After("@feature")
+	public void feature() {
+		System.out.println("Close the browser");
+	}
+	
+	
 }
