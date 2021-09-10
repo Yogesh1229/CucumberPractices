@@ -14,4 +14,10 @@ public class TestHooks {
 	public void teardown() {
 		System.out.println("Close the browser");
 	}
+	
+	@After("@master")
+	public void master() {
+		System.out.println("Close the browser");
+	}
+	
 }
